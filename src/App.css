@@ -1,38 +1,109 @@
-.App {
+.nav-bar{
+  height: 90px;
+  position: relative;
+}
+
+.nav-logo{
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 60px;
+  width: 300px;
+}
+
+#logo-header{
+  height: 60px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.nav-mid > span{
+  margin-right: 40px;
+}
+
+.nav-login{
+  position:absolute;
+  right: 20px;
+  top : 5px;
+}
+
+.nav-login > span{
+  margin-left: 10px;
+  font-size: 5px;
+}
+
+hr{
+  background:whitesmoke;
+    height:2px;
+    border:2px;
+}
+
+.explanation{
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 760px;
+}
+
+.e1{
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 30px;
+  color:pink;
+}
+.e2{
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.e2 > a{
+  color:skyblue;
+}
+.e3{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.experience{
+  position: absolute;
+  right: 140px;
+  top:150px;
+  width: 360px;
+  height: 180px;
+  background-color: yellow;
+  line-height: 180px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.showboard{
+  background-color: black;
+  height: 500px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#temporary{
+  height: 500px;
+  width: 1000px;
+  margin-left: 120PX;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rabcex{
+  height: 300px;
+  background-color: black;
+  margin-bottom: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+#temporary004{
+  height: 300px;
+  width: 1000px;
+  margin-left: 250PX;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.endex{
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  color:grey
 }
