@@ -15,9 +15,14 @@
   width: 300px;
   margin-top: 15px;
 }
-
+/*  */
 .nav-mid > span{
-  margin-right: 40px;
+  margin-right: 40.1px;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
 }
 
 .nav-login{
@@ -76,17 +81,27 @@ hr{
 
 .showboard{
   background-color: black;
+  width: 80.5vw;
   height: 500px;
-  margin-left: 140px;
-  margin-right: 140px;
+  margin : 0 auto;
   margin-top: 60px;
   margin-bottom: 100px;
+  position: relative;
+}
+.showboard > div{
+  width: 1120px;
+  margin : 0 auto;
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 #temporary{
   height: 500px;
-  width: 1000px;
-  margin-left: 120PX;
+  width: 65vw;
+  display: block;
+  margin : 0 auto;
 }
 
 .rabcex{
@@ -97,8 +112,9 @@ hr{
 
 #temporary004{
   height: 300px;
-  width: 1000px;
-  margin-left: 250PX;
+  width: 66vw;
+  display: block;
+  margin: 0 auto;
 }
 
 .endex{
