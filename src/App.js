@@ -1,19 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import React, {useState} from 'react';
+import SbRotation from './component/SbRotation';
+import { Link } from "react-router-dom";
 
 function App() {
   return (
     <div>
       <div className='nav-bar'>
-        <a className='nav-logo'>
-          <img id="logo-header" src='RABC-logo.png'/>
+      <a className='nav-logo'>
+          <Link to="/">
+            <img id="logo-header" src='RABC-logo.png'/>
+          </Link>
         </a>
+{/*  */}
         <a className='nav-mid'>
           <span>문제</span>
           <span>대회</span>
           <span>랭킹</span>
           <span>게시판</span>
-          <span>홈페이지 소개</span>
+          <span><Link to="/homepage" className='link'>홈페이지 소개</Link></span>
           <span>Q&A</span>
           <span>설정</span>
           <span>🔍</span>
@@ -41,12 +47,10 @@ function App() {
       </div>
 
       <div className='experience'>
-      경험치 + 티어
+      설문조사를 시작해 주세요!!
       </div>
 
-      <div className='showboard'>
-        <img id="temporary" src='temporary.png'/>
-      </div>
+      <SbRotation />
 
       <hr/>
       <div className='rabcex'>
@@ -60,9 +64,10 @@ function App() {
         <br/>전화번호 : 010-9886-1315 | 010-7471-0758
         <br/>이메일 : rlftkdgus123@gmail.com
         <br/>출처 : ~~~~~~~~~~~~
+        <br/>
       </div>
     </div>
   );
 }
-// test2333
+
 export default App;
