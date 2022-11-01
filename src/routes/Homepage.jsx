@@ -27,11 +27,13 @@ export default function Homepage() {
         </a>        
       </div>
       <hr></hr>
-
-      <div className='explanation'>
-        <div className='e1'>
-          여기는 홈페이지 소개 페이지 입니다.
-        </div>
+      <div  class = "soso">
+      <div>
+         <img id="ein" src='Ein.png'/>
+      </div>
+      <div class = "sogae">
+      <img id = "let" src='letter.png'/>
+      </div>
       </div>
       </main>
     );
