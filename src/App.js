@@ -13,7 +13,7 @@ function App() {
             <img id="logo-header" src='RABC-logo.png'/>
           </Link>
         </a>
-{/*  */}
+
         <a className='nav-mid'>
           <span>문제</span>
           <span>대회</span>
@@ -47,7 +47,9 @@ function App() {
       </div>
 
       <div className='experience'>
-      설문조사를 시작해 주세요!!
+        <Link to="/examination">
+          <button className='reviewbtn'>설문조사를 시작해 주세요!!</button>
+        </Link>
       </div>
 
       <SbRotation />
